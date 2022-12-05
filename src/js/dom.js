@@ -4,7 +4,7 @@ const content = document.querySelector(".content");
 const form = document.createElement("form");
 const btn = document.createElement("button");
 // btn.type = "button";
-btn.textContent = "¡ Click Me !"
+btn.textContent = "¡Click Me!"
 
 form.appendChild(btn);
 content.append(form)

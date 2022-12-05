@@ -15,7 +15,5 @@ const showColor = (e) => {
 
 }
 
-const init = () => {
-  form.addEventListener('click', showColor)
-}
+const init = () => { form.addEventListener('click', showColor)}
 init()
