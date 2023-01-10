@@ -6,6 +6,8 @@ const generateColor = () =>{
         color = color + numsHexa[Math.floor(Math.random() * 15)];
       }
       content.style.background = color;
+      CodeColor.innerHTML= color
+      CodeColor.style.display = 'block'
 }
 
 const showColor = (e) => {
